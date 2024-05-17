@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from pygwalker.api.streamlit import init_streamlit_comm, get_streamlit_html
 from src.keboola_storage_api.connection import add_keboola_table_selection
 
-# st.set_page_config(layout='wide')
+st.set_page_config(layout='wide')
 
 image_path = os.path.dirname(os.path.abspath(__file__))
 
